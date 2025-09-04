@@ -75,6 +75,79 @@ const styles = StyleSheet.create({
     fontSize: FONT_SIZE.medium,
     fontWeight: "500",
   },
+
+  // Added styles for Home screen
+  searchGroup: {
+    marginTop: SPACING.medium,
+    marginBottom: SPACING.small,
+  },
+  searchFormGroup: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: COLORS.lightGray,
+    borderRadius: BORDER_RADIUS.medium,
+    padding: SPACING.small,
+  },
+  searchControlGroup: {
+    flex: 1,
+    flexDirection: "column",
+    marginRight: SPACING.small,
+  },
+  searchFormText: {
+    fontSize: FONT_SIZE.medium,
+    color: COLORS.gray,
+    fontWeight: "500",
+  },
+  searchControl: {
+    borderWidth: 1,
+    borderColor: COLORS.gray,
+    borderRadius: BORDER_RADIUS.small,
+    padding: SPACING.xs,
+    marginTop: SPACING.xs,
+    backgroundColor: COLORS.white,
+  },
+  searchButton: {
+    backgroundColor: COLORS.primary,
+    borderRadius: BORDER_RADIUS.medium,
+    padding: SPACING.small,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  filterGroup: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingHorizontal: SPACING.small,
+    height: 72,
+  },
+  filterContainer: {
+    alignItems: "center",
+    justifyContent: "center",
+    marginRight: SPACING.medium,
+    width: 60,
+    height: 60,
+    backgroundColor: COLORS.lightGray,
+    borderRadius: BORDER_RADIUS.medium,
+    padding: SPACING.xs,
+  },
+  listingContainer: {
+    flex: 1,
+    marginTop: SPACING.medium,
+  },
+  paginationContainer: {
+    alignItems: "center",
+    marginVertical: SPACING.medium,
+  },
+  showMoreButton: {
+    backgroundColor: COLORS.primary,
+    borderRadius: BORDER_RADIUS.medium,
+    paddingVertical: SPACING.small,
+    paddingHorizontal: SPACING.large,
+  },
+  showMoreButtonText: {
+    color: COLORS.white,
+    fontSize: FONT_SIZE.medium,
+    fontWeight: "600",
+  },
 });
 
 export { styles, COLORS, FONT_SIZE, SPACING, BORDER_RADIUS, height, width };
