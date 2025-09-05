@@ -106,14 +106,6 @@ const styles = StyleSheet.create({
     marginTop: SPACING.xs,
     backgroundColor: COLORS.white,
   },
-  backgroundImageContainer: {
-  flex: 1,
-  justifyContent: "center",
-  alignItems: "center",
-  resizeMode: "cover", // works if applied directly to ImageBackground
-  padding: SPACING.medium,
-},
-
   searchButton: {
     backgroundColor: COLORS.primary,
     borderRadius: BORDER_RADIUS.medium,
@@ -126,33 +118,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: SPACING.small,
     height: 72,
-  },
-   logoContainer: {
-    alignItems: "center",
-    justifyContent: "center",
-    marginVertical: SPACING.large,
-  },
-  titleContainer: {
-    marginBottom: SPACING.medium,
-  },
-  titleText: {
-    fontSize: FONT_SIZE.xlarge,
-    fontWeight: "700",
-    color: COLORS.black,
-    textAlign: "center",
-  },
-  titleSubTextContainer: {
-    marginBottom: SPACING.large,
-  },
-  titleSubText: {
-    fontSize: FONT_SIZE.medium,
-    color: COLORS.gray,
-    textAlign: "center",
-  },
-  buttonGroup: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginTop: SPACING.medium,
   },
   filterContainer: {
     alignItems: "center",
